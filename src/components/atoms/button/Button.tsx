@@ -77,7 +77,7 @@ export const Button: React.FC<ButtonProps> = ({
         <span className={cn({ "ml-2": icon })}>{label}</span>
       </button>
       {menu && (
-        <div class="relative">
+        <div className="relative">
           <button
             type="button"
             onClick={() => handleMenu()}
