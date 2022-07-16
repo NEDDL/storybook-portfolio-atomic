@@ -88,7 +88,7 @@ Icon.storyName = "Button with icon";
 Icon.args = {
   color: "Primary",
   variant: "Contained",
-  size: "md",
+  size: "lg",
   icon: true,
   iconType: "Rocket",
   menu: false,
