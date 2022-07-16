@@ -9,7 +9,8 @@
     "tailwind-storybook": "postcss ./styles/tailwind.css -o ./public/storybook/tailwind.storybook.css",
     "tailwind-storybook-build": "NODE_ENV=production postcss ./styles/tailwind.css -o ./storybook-static/storybook/tailwind.storybook.css",
     "storybook": "npm run tailwind-storybook && start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook && npm run tailwind-storybook-build"
+    "build-storybook": "build-storybook && npm run tailwind-storybook-build",
+    "chromatic": "npx chromatic --project-token=7b8a5433c2af"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -26,11 +27,14 @@
     "@storybook/react": "^6.2.9",
     "@types/react": "^17.0.11",
     "autoprefixer": "^10.2.6",
+    "chromatic": "^6.7.0",
     "classnames": "^2.3.1",
     "postcss": "^8.3.5",
     "postcss-cli": "^9.0.2",
     "react-is": "^17.0.2",
     "tailwindcss": "^2.2.0",
     "typescript": "^4.3.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "nextjs-tailwindcss-typescript-storybook@0.1.0"
 }
